@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color:#6f8c5f; /* Change the background color to green */
+    color: white; /* Optional: Change text color to white for better contrast */
+    font-family: Arial, sans-serif; /* Optional: Set a font for better readability */
+    background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+form {
+    background-color: rgb(78, 76, 76);
+    padding: 20px; /* Add padding around the form */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 0 10px rgba(238, 235, 235, 0.3); /* Shadow for better visibility */
+    width: 90%; /* Make the form responsive */
+    max-width: 800px; /* Set a maximum width for larger screens */
+}
+
+h1, h2 {
+    color: white; /* Optional: Change heading color to white */
+}
+
+input, textarea {
+    margin: 10px 0; /* Optional: Add some margin for better spacing */
+    padding: 10px; /* Optional: Add padding for better input appearance */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+input, textarea {
+    margin: 10px 0; /* Add some margin for better spacing */
+    padding: 10px; /* Add padding for better input appearance */
+    border-radius: 5px; /* Add rounded corners */
+    width: 100%; /* Make inputs take full width of the form */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+    background-color: white; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    width: 100%; /* Make button take full width */
+    font-size: 16px; /* Increase font size */
+    font-weight: 400px;
+}
+
+button:hover {
+    background-color: lightgray; /* Change background on hover */
+}
